@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --pa-blue: #0b3d91;
+  --pa-blue-dark: #082c68;
+  --background: #f4f6fa;
+  --foreground: #0f172a;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
